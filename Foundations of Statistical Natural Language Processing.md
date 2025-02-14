@@ -1,3 +1,4 @@
+# **Foundations of Statistical Natural Language Processing, Christopher D. Manning Hinrich Schiitze**
 # I Preliminaries 1
 ## 1 Introduction 3
 ### 1.1 Rationalist and Empiricist Approaches to Language 4
