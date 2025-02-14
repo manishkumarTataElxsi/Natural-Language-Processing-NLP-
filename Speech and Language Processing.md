@@ -1,12 +1,12 @@
 # **Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition**
 
 ## 1 Introduction 1
-1.1 Knowledge in Speech and Language Processing . . . . . . . . . . . 2
-1.2 Ambiguity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
-1.3 Models and Algorithms . . . . . . . . . . . . . . . . . . . . . . . . 5
-1.4 Language, Thought, and Understanding . . . . . . . . . . . . . . . . 6
-1.5 The State of the Art . . . . . . . . . . . . . . . . . . . . . . . . . . 8
-1.6 Some Brief History . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+### 1.1 Knowledge in Speech and Language Processing . . . . . . . . . . . 2
+### 1.2 Ambiguity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+### 1.3 Models and Algorithms . . . . . . . . . . . . . . . . . . . . . . . . 5
+### 1.4 Language, Thought, and Understanding . . . . . . . . . . . . . . . . 6
+### 1.5 The State of the Art . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+### 1.6 Some Brief History . . . . . . . . . . . . . . . . . . . . . . . . . . 9
 1.6.1 Foundational Insights: 1940s and 1950s . . . . . . . . . . . 9
 1.6.2 The Two Camps: 1957–1970 . . . . . . . . . . . . . . . . . 10
 1.6.3 Four Paradigms: 1970–1983 . . . . . . . . . . . . . . . . . 11
@@ -15,19 +15,19 @@
 1.6.6 The Rise of Machine Learning: 2000–2007 . . . . . . . . . 13
 1.6.7 On Multiple Discoveries . . . . . . . . . . . . . . . . . . . 13
 1.6.8 A Final Brief Note on Psychology . . . . . . . . . . . . . . 14
-1.7 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+### 1.7 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
 Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . . 15
 
 # I Words
 ## 2 Regular Expressions and Automata 17
-2.1 Regular Expressions . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+### 2.1 Regular Expressions . . . . . . . . . . . . . . . . . . . . . . . . . . 17
 2.1.1 Basic Regular Expression Patterns . . . . . . . . . . . . . . 18
 2.1.2 Disjunction, Grouping, and Precedence . . . . . . . . . . . 21
 2.1.3 A Simple Example . . . . . . . . . . . . . . . . . . . . . . 22
 2.1.4 A More Complex Example . . . . . . . . . . . . . . . . . . 23
 2.1.5 Advanced Operators . . . . . . . . . . . . . . . . . . . . . 24
 2.1.6 Regular Expression Substitution, Memory, and ELIZA . . . 25
-2.2 Finite-State Automata . . . . . . . . . . . . . . . . . . . . . . . . . 26
+### 2.2 Finite-State Automata . . . . . . . . . . . . . . . . . . . . . . . . . 26
 2.2.1 Using an FSA to Recognize Sheeptalk . . . . . . . . . . . . 26
 2.2.2 Formal Languages . . . . . . . . . . . . . . . . . . . . . . 30
 2.2.3 Another Example . . . . . . . . . . . . . . . . . . . . . . . 31
@@ -35,104 +35,104 @@ Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . . 1
 2.2.5 Using an NFSA to Accept Strings . . . . . . . . . . . . . . 33
 2.2.6 Recognition as Search . . . . . . . . . . . . . . . . . . . . 35
 2.2.7 Relating Deterministic and Non-Deterministic Automata . . 38
-2.3 Regular Languages and FSAs . . . . . . . . . . . . . . . . . . . . . 38
-2.4 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+### 2.3 Regular Languages and FSAs . . . . . . . . . . . . . . . . . . . . . 38
+### 2.4 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
 Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . . 42
 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
 
 ## 3 Words & Transducers 45
-3.1 Survey of (Mostly) English Morphology . . . . . . . . . . . . . . . 47
+### 3.1 Survey of (Mostly) English Morphology . . . . . . . . . . . . . . . 47
 3.1.1 Inflectional Morphology . . . . . . . . . . . . . . . . . . . 48
 3.1.2 Derivational Morphology . . . . . . . . . . . . . . . . . . . 50
 3.1.3 Cliticization . . . . . . . . . . . . . . . . . . . . . . . . . . 51
 3.1.4 Non-concatenative Morphology . . . . . . . . . . . . . . . 52
 3.1.5 Agreement . . . . . . . . . . . . . . . . . . . . . . . . . . 52
-3.2 Finite-State Morphological Parsing . . . . . . . . . . . . . . . . . . 53
-3.3 Building a Finite-State Lexicon . . . . . . . . . . . . . . . . . . . . 54
-3.4 Finite-State Transducers . . . . . . . . . . . . . . . . . . . . . . . . 57
+### 3.2 Finite-State Morphological Parsing . . . . . . . . . . . . . . . . . . 53
+### 3.3 Building a Finite-State Lexicon . . . . . . . . . . . . . . . . . . . . 54
+### 3.4 Finite-State Transducers . . . . . . . . . . . . . . . . . . . . . . . . 57
 3.4.1 Sequential Transducers and Determinism . . . . . . . . . . 59
-3.5 FSTs for Morphological Parsing . . . . . . . . . . . . . . . . . . . 60
-3.6 Transducers and Orthographic Rules . . . . . . . . . . . . . . . . . 63
-3.7 Combining FST Lexicon and Rules . . . . . . . . . . . . . . . . . . 65
-3.8 Lexicon-Free FSTs: The Porter Stemmer . . . . . . . . . . . . . . . 68
-3.9 Word and Sentence Tokenization . . . . . . . . . . . . . . . . . . . 69
+### 3.5 FSTs for Morphological Parsing . . . . . . . . . . . . . . . . . . . 60
+### 3.6 Transducers and Orthographic Rules . . . . . . . . . . . . . . . . . 63
+### 3.7 Combining FST Lexicon and Rules . . . . . . . . . . . . . . . . . . 65
+### 3.8 Lexicon-Free FSTs: The Porter Stemmer . . . . . . . . . . . . . . . 68
+### 3.9 Word and Sentence Tokenization . . . . . . . . . . . . . . . . . . . 69
 3.9.1 Segmentation in Chinese . . . . . . . . . . . . . . . . . . . 70
-3.10 Detecting and Correcting Spelling Errors . . . . . . . . . . . . . . . 72
-3.11 Minimum Edit Distance . . . . . . . . . . . . . . . . . . . . . . . . 74
-3.12 Human Morphological Processing . . . . . . . . . . . . . . . . . . 77
-3.13 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79
+### 3.10 Detecting and Correcting Spelling Errors . . . . . . . . . . . . . . . 72
+### 3.11 Minimum Edit Distance . . . . . . . . . . . . . . . . . . . . . . . . 74
+### 3.12 Human Morphological Processing . . . . . . . . . . . . . . . . . . 77
+### 3.13 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79
 Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . . 80
 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 81
 
 ## 4 N-grams 83
-4.1 Counting Words in Corpora . . . . . . . . . . . . . . . . . . . . . . 84
-4.2 Simple (Unsmoothed) N-grams . . . . . . . . . . . . . . . . . . . . 86
-4.3 Training and Test Sets . . . . . . . . . . . . . . . . . . . . . . . . . 91
+### 4.1 Counting Words in Corpora . . . . . . . . . . . . . . . . . . . . . . 84
+### 4.2 Simple (Unsmoothed) N-grams . . . . . . . . . . . . . . . . . . . . 86
+### 4.3 Training and Test Sets . . . . . . . . . . . . . . . . . . . . . . . . . 91
 4.3.1 N-gram Sensitivity to the Training Corpus . . . . . . . . . . 92
 4.3.2 Unknown Words: Open versus closed vocabulary tasks . . . 94
-4.4 Evaluating N-grams: Perplexity . . . . . . . . . . . . . . . . . . . . 95
-4.5 Smoothing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
+### 4.4 Evaluating N-grams: Perplexity . . . . . . . . . . . . . . . . . . . . 95
+### 4.5 Smoothing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
 4.5.1 Laplace Smoothing . . . . . . . . . . . . . . . . . . . . . . 98
 4.5.2 Good-Turing Discounting . . . . . . . . . . . . . . . . . . 101
 4.5.3 Some advanced issues in Good-Turing estimation . . . . . . 102
-4.6 Interpolation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
-4.7 Backoff . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105
+### 4.6 Interpolation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+### 4.7 Backoff . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105
 4.7.1 Advanced: Details of computing Katz backoff α and P
-4.8 Practical Issues: Toolkits and Data Formats . . . . . . . . . . . . . . 107
-4.9 Advanced Issues in Language Modeling . . . . . . . . . . . . . . . 109
-4.9.1 Advanced Smoothing Methods: Kneser-Ney Smoothing . . 109
+### 4.8 Practical Issues: Toolkits and Data Formats . . . . . . . . . . . . . . 107
+### 4.9 Advanced Issues in Language Modeling . . . . . . . . . . . . . . . 109
+#### 4.9.1 Advanced Smoothing Methods: Kneser-Ney Smoothing . . 109
 4.9.2 Class-based N-grams . . . . . . . . . . . . . . . . . . . . . 111
 4.9.3 Language Model Adaptation and Using the Web . . . . . . 111
 4.9.4 Using Longer Distance Information: A Brief Summary . . . 112
-4.10 Advanced: Information Theory Background . . . . . . . . . . . . . 113
+### 4.10 Advanced: Information Theory Background . . . . . . . . . . . . . 113
 4.10.1 Cross-Entropy for Comparing Models . . . . . . . . . . . . 116
-4.11 Advanced: The Entropy of English and Entropy Rate Constancy . . 117
+### 4.11 Advanced: The Entropy of English and Entropy Rate Constancy . . 117
 Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . . 119
 4.12 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120
 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 121
 
 ## 5 Part-of-Speech Tagging 123
-5.1 (Mostly) English Word Classes . . . . . . . . . . . . . . . . . . . . 124
-5.2 Tagsets for English . . . . . . . . . . . . . . . . . . . . . . . . . . . 130
-5.3 Part-of-Speech Tagging . . . . . . . . . . . . . . . . . . . . . . . . 133
-5.4 Rule-Based Part-of-Speech Tagging . . . . . . . . . . . . . . . . . . 137
-5.5 HMM Part-of-Speech Tagging . . . . . . . . . . . . . . . . . . . . 139
+### 5.1 (Mostly) English Word Classes . . . . . . . . . . . . . . . . . . . . 124
+### 5.2 Tagsets for English . . . . . . . . . . . . . . . . . . . . . . . . . . . 130
+### 5.3 Part-of-Speech Tagging . . . . . . . . . . . . . . . . . . . . . . . . 133
+### 5.4 Rule-Based Part-of-Speech Tagging . . . . . . . . . . . . . . . . . . 137
+### 5.5 HMM Part-of-Speech Tagging . . . . . . . . . . . . . . . . . . . . 139
 5.5.1 Computing the most-likely tag sequence: An example . . . 142
 5.5.2 Formalizing Hidden Markov Model taggers . . . . . . . . . 144
 5.5.3 The Viterbi Algorithm for HMM Tagging . . . . . . . . . . 145
 5.5.4 Extending the HMM algorithm to trigrams . . . . . . . . . 149
-5.6 Transformation-Based Tagging . . . . . . . . . . . . . . . . . . . . 151
+### 5.6 Transformation-Based Tagging . . . . . . . . . . . . . . . . . . . . 151
 5.6.1 How TBL Rules Are Applied . . . . . . . . . . . . . . . . 152
 5.6.2 How TBL Rules Are Learned . . . . . . . . . . . . . . . . 152
-5.7 Evaluation and Error Analysis . . . . . . . . . . . . . . . . . . . . . 153
+### 5.7 Evaluation and Error Analysis . . . . . . . . . . . . . . . . . . . . . 153
 5.7.1 Error Analysis . . . . . . . . . . . . . . . . . . . . . . . . 156
-5.8 Advanced Issues in Part-of-Speech Tagging . . . . . . . . . . . . . 157
+### 5.8 Advanced Issues in Part-of-Speech Tagging . . . . . . . . . . . . . 157
 5.8.1 Practical Issues: Tag Indeterminacy and Tokenization . . . . 157
 5.8.2 Unknown Words . . . . . . . . . . . . . . . . . . . . . . . 158
 5.8.3 Part-of-Speech Tagging for Other Languages . . . . . . . . 160
 5.8.4 Combining Taggers . . . . . . . . . . . . . . . . . . . . . . 163
-5.9 Advanced: The Noisy Channel Model for Spelling . . . . . . . . . . 163
+### 5.9 Advanced: The Noisy Channel Model for Spelling . . . . . . . . . . 163
 5.9.1 Contextual Spelling Error Correction . . . . . . . . . . . . 167
-5.10 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 168
+### 5.10 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 168
 Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . . 169
 Exercises . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 171
 
 ## 6 Hidden Markov and Maximum Entropy Models 173
-6.1 Markov Chains . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 174
-6.2 The Hidden Markov Model . . . . . . . . . . . . . . . . . . . . . . 177
-6.3 Computing Likelihood: The Forward Algorithm . . . . . . . . . . . 179
-6.4 Decoding: The Viterbi Algorithm . . . . . . . . . . . . . . . . . . . 184
-6.5 Training HMMs: The Forward-Backward Algorithm . . . . . . . . . 187
-6.6 Maximum Entropy Models: Background . . . . . . . . . . . . . . . 193
+### 6.1 Markov Chains . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 174
+### 6.2 The Hidden Markov Model . . . . . . . . . . . . . . . . . . . . . . 177
+### 6.3 Computing Likelihood: The Forward Algorithm . . . . . . . . . . . 179
+### 6.4 Decoding: The Viterbi Algorithm . . . . . . . . . . . . . . . . . . . 184
+### 6.5 Training HMMs: The Forward-Backward Algorithm . . . . . . . . . 187
+### 6.6 Maximum Entropy Models: Background . . . . . . . . . . . . . . . 193
 6.6.1 Linear Regression . . . . . . . . . . . . . . . . . . . . . . 194
 6.6.2 Logistic regression . . . . . . . . . . . . . . . . . . . . . . 197
 6.6.3 Logistic regression: Classification . . . . . . . . . . . . . . 199
 6.6.4 Advanced: Learning in logistic regression . . . . . . . . . . 200
-6.7 Maximum Entropy Modeling . . . . . . . . . . . . . . . . . . . . . 201
+### 6.7 Maximum Entropy Modeling . . . . . . . . . . . . . . . . . . . . . 201
 6.7.1 Why do we call it Maximum Entropy? . . . . . . . . . . . . 205
 6.8 Maximum Entropy Markov Models . . . . . . . . . . . . . . . . . . 207
 6.8.1 Decoding and Learning in MEMMs . . . . . . . . . . . . . 210
-6.9 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 212
+### 6.9 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 212
 Bibliographical and Historical Notes . . . . . . . . . . . . . . . . . . . . . 212
 # II Speech
 ## 7 Phonetics 215
