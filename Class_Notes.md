@@ -1,6 +1,67 @@
 # Natural Language Processing
-# Preprocessing of Documents in NLP
-## 1. Text Cleaning
+## Introduction
+* What is NLP?
+
+* Why study NLP?
+  It must be important, It must be interesting
+  Importance : Impact and/or potential impact on our everyday life
+  Interesting : New insight, fresh challenge
+  
+* Why NLP is important?
+  Teach computers to communicate with people:
+  Database query interfaces ,
+  Intelligent tutoring systems,
+  Question-answering systems,
+  Speech recognition and spoken language understanding
+
+  Help people communicate with each other:
+  Machine translation,
+  Natural language Generation
+
+  Harness the potential of web:
+  Information extraction
+  Search (related taskws: classify , filter, summarixe)
+  
+* NLP has two parts:
+* Natural language Understanding(NLU): In which I/P is natural language text and O/P is representation of meaning of text
+* Natural language Generation(NLG): In which I/P is non-textual representation like Graph, a time series data and O/P is natural language text.
+* NLP = NLU + NLG
+* Understanding ---> flight Landing(needs piloting)
+* Generation ---> Flight Take-off(can be automated)
+* 
+### Why NLP is Hard?
+
+### Why NLP is useful?
+
+### Classical Problems
+
+### Speech vs NLP?
+
+## Words
+### Structure (Spellcheck, morpholog, and FSTs)
+### Semantics
+### Part of Speach(Part of Speach Tagging)
+#### Classic 
+## Sentences
+### Compositional Semantics
+### Classical Parsing
+
+## Language Modelling
+
+
+## Machine Translation
+
+
+## Information Extration
+
+
+## Deep Learning for NLP
+
+
+
+# Extras
+## Preprocessing of Documents in NLP
+### 1. Text Cleaning
 Lowercasing: Converts all text to lowercase to ensure uniformity.
 Removing Punctuation and Special Characters: Eliminates unnecessary symbols (e.g., .,!?@#$%).
 Removing Stopwords: Filters out common words (e.g., "the," "is," "in") that do not contribute much meaning.
