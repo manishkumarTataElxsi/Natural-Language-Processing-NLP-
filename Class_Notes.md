@@ -1,13 +1,13 @@
 # Natural Language Processing
 ## Introduction
-* What is NLP?
+### What is NLP?
 
-* Why study NLP?
+### Why study NLP?
   It must be important, It must be interesting
   Importance : Impact and/or potential impact on our everyday life
   Interesting : New insight, fresh challenge
   
-* Why NLP is important?
+### Why NLP is important?
   Teach computers to communicate with people:
   Database query interfaces ,
   Intelligent tutoring systems,
