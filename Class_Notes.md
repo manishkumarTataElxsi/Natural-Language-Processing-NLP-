@@ -6,7 +6,7 @@
   It must be important, It must be interesting
   Importance : Impact and/or potential impact on our everyday life
   Interesting : New insight, fresh challenge
-  
+   
 ### Why NLP is important?
   Teach computers to communicate with people:
   Database query interfaces ,
